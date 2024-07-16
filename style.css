@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(223, 62, 62);
+}
+#navbarSupportedContent ul{
+text-align: center;
+color: white !important;
+font-size: 20px;
+}
+.nav-link{
+    color: white;
+}
+#banner{
+
+background-image: url('https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/04/web-developer-portfolio.png');    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+    color: white;
+}
+.abut-img{
+    border-radius: 50px;
+    border: 2px solid black;
+  
+}
+.error{
+    color: red;
+}
+textarea{
+    border: none;
+}
+.inputgroup input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.inputgroup textarea{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.inputgroup.error input{
+    border: 3px solid red;
+}
+.inputgroup.error textarea{
+    border: 3px solid red;
+}
+.inputgroup.success textarea{
+    border: 3px solid rgb(92, 236, 92)
+}
+.inputgroup.success input{
+    border: 3px solid rgb(92, 236, 92)
+  }
+
+
+  #project img{
+    height: 200px;
+  }
+  #project a{
+   color: blue;
+   font-weight: bolder;
+  }
+  #project .card{
+   margin: 10px;
+   color: firebrick;
+  }
+  #project{
+    background-color: blueviolet;
+    padding: 10px;
+  }
+  #education{
+    background-color: gray;
+    padding: 10px;
+  }
+  #education .cart{
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    margin: 10PX;
+    padding: 10px;
+    height: 300px;
+  }
+  #education .cart:hover{
+    background-color: white;
+    transition: 3s;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+   
+  }
+  #about a{
+    text-decoration: none;
+    color: black;
+  }
+
+#skills .card{
+  margin: 10px;
+}
+#contact img{
+  border-radius: 500px;
+}
+
+  @media (max-width:500px) {
+#communication{
+  display: flex;
+  flex-direction: column;
+}
+  }
